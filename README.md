@@ -3,4 +3,6 @@
 테마와 프로젝트룸을 바꿈.
 
 ## 링크
-[마크다운 작성법]["markdown.md"]
+[마크다운문법][mklink]
+
+[mklink]: /markdown.md "링크예제"
