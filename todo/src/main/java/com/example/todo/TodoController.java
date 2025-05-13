@@ -28,3 +28,17 @@ public class TodoController {
         return todoRepository.findAll(); // JSON 형식으로 반환
     }
 }
+    @DeleteMapping("/delete/{id}")
+    public void deleteTodo(@PathVariable Long id) {
+        todoRepository.deleteById(id);
+    }
+
+    @PutMapping("/update/{id}")
+    public Todo updateTodo(@PathVariable Long id, @RequestParam(required = false) Boolean completed) {
+        Todo todo = todoRepository.findById(id).orElseThrow();
+        if (completed != null) {
+            todo.setCompleted(completed);
+        }
+        todoRepository.save(todo);
+        return todo;
+    }
