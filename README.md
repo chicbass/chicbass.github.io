@@ -110,3 +110,20 @@ Plain Old Java Object의 약자입니다.
 
 # Blueprint
 다국어/다지사 사이트 관리 기능과 연결됩니다.
+
+# 사이트 구조
+~/code/  
+|--- aem-guides-wknd/  
+|--- all/
+|--- core/ 			:  java 소스 (백엔드)  
+|--- ui.apps/		: 컴퍼넌트  
+|--- ui.apps.structure/	: 템플릿  
+|--- ui.config/		: 환경변수 셋팅  
+|--- ui.content/		: DAM, 사이트  
+|--- ui.frontend/		: CSS, javascript  
+|--- ui.tests /  
+|--- it.tests/  
+|--- dispatcher/  
+|--- pom.xml  
+|--- README.md  
+|--- .gitignore
