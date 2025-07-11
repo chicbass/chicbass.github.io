@@ -2,7 +2,7 @@
 - 전문지식이 없어도 관리할 수 있다.
 - 많은 요소(컴퍼넌트, CF, XF 등)들의 재활용이 가능하다. (제일 큰 부분)
 - 컴포넌트와 에셋들의 종속성이 있고 선택적으로 권한 부여가 되어 관리가 강력하다.
-- 라이브카피로 다국어,글로벌 사이트를 만들기 편하다.
+- 라이브카피로 다국어,글로벌 사이트(현지화)를 만들기 편하다.
 - Adobe에서 기본적으로 제공하는 컴포넌트들이 꽤 있어서 커스터마이징 하기 편리하다.
 
 
@@ -103,6 +103,10 @@ OSGi는 Java 코드를 ‘번들(Bundle)’이라는 작은 단위로 나누고,
 # 렌디션
 원본 파일(주로 이미지, 영상 등)에서 자동으로 생성된 파생 버전(썸네일, 리사이즈 이미지, 압축 파일 등)을 의미한다.
 
+# 클래식UI
+클래식 UI를 사용할 경우 JSP를 이용하여 AEM사이트를 만들 수 있음.
+[바로가기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/introduction/website)
+
 # Coral UI
 AEM의 관리 콘솔(Authoring UI)을 구성하는 Adobe의 전용 UI 컴포넌트 라이브러리입니다.
 
@@ -128,3 +132,15 @@ Plain Old Java Object의 약자입니다.
 |--- pom.xml  
 |--- README.md  
 |--- .gitignore
+
+# AEM 노드 타입
+| primary type      | 설명                      |
+| ----------------- | ----------------------- |
+| `nt:unstructured` | 구조가 자유로운 일반 컨텐츠 노드      |
+| `sling:Folder`    | 구조용 폴더 (페이지가 아님!)       |
+| `cq:Page`         | 페이지 루트 노드               |
+| `cq:PageContent`  | 실제 페이지 컨텐츠 (메타데이터 포함)   |
+| `nt:file`         | 파일 노드 (예: 이미지, pdf)     |
+| `dam:Asset`       | DAM(자산) 파일 노드           |
+| `nt:resource`     | 실제 바이너리 리소스 (예: 이미지 본문) |
+| `rep:policy`      | 권한 정책 노드                |
