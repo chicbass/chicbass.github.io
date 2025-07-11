@@ -114,7 +114,7 @@ Plain Old Java Object의 약자입니다.
 # 사이트 구조
 ~/code/  
 |--- aem-guides-wknd/  
-|--- all/
+|--- all/  
 |--- core/ 			:  java 소스 (백엔드)  
 |--- ui.apps/		: 컴퍼넌트  
 |--- ui.apps.structure/	: 템플릿  
