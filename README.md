@@ -146,22 +146,136 @@ Plain Old Java Object의 약자입니다.
 | `nt:resource`     | 실제 바이너리 리소스 (예: 이미지 본문) |
 | `rep:policy`      | 권한 정책 노드                |
 
-# AEM 메뉴
-## 태그
-__태그 지정을 사용해야 하는 10가지 이유__  
-- 콘텐츠 구성 - 태그 지정을 수행하면 작성자가 크게 노력하지 않고도 콘텐츠를 빠르게 구성할 수 있으므로 작업이 편리  
-- 태그 지정 구성 - 태그는 콘텐츠를 구성하지만 계층 구조 분류/네임스페이스에 따라 태그가 구성  
-- 심층 구성 태그 - 태그와 하위 태그를 만들 수 있으므로 전체 분류 체계 시스템, 상위 개념, 하위 개념 및 상호 간의 관계를 표현  
-이를 통해 정식 계층 구조 이외에 두 번째 또는 세 번째 콘텐츠 계층 구조작성 가능  
-- 제어된 태그 지정 - 태그 및/또는 네임스페이스에 권한을 적용하여 태그 작성 및 적용을 제어함으로써 태그 지정을 제어  
-- 유연한 태그 지정 - 태그에는 태그, 분류 용어, 카테고리, 레이블 등의 많은 이름과 특성이 있음.   
-따라서 다양한 콘텐츠 모델에서 다양한 방식으로 태그를 사용 가능.  
-예를 들어 타겟 인구집단을 선정하거나, 콘텐츠를 분류하거나, 콘텐츠에 등급을 매기거나, 두 번째 콘텐츠 계층 구조 생성 가능  
-향상된 검색 - AEM의 기본 검색 구성 요소는 관련 있는 내용으로 결과의 범위를 좁히기 위해 필터를 적용할 수 있는 작성된 태그 및 적용된 태그를 광범위하게 포함.  
-- SEO 사용 - 페이지 속성으로 적용된 태그는 페이지의 메타태그에 자동으로 표시되므로 검색 엔진에서 확인 가능  
-- 단순한 정교성 - 단순히 단어와 버튼 터치만으로 태그를 만들 수 있습니다. 그런 다음, 제목, 설명 및 무제한 레이블을 추가하여 태그에 더 많은 의미 체계를 제공  
-- 핵심 일관성 - 태그 지정 시스템은 AEM의 핵심 구성 요소로서 모든 AEM 기능에서 콘텐츠를 분류하는 데 사용   
-또한 태그 지정 API는 개발자가 동일한 분류법에 액세스할 수 있는 태그 지정 지원 애플리케이션을 작성하는 데 사용.  
-- 구조 및 유연성 조합 - AEM은 페이지 및 경로 중첩으로 인해 구조화된 정보로 작업하는 데 이상적  
-전체 텍스트 검색 기능이 내장되어 있으므로 비구조적인 정보로 작업할 때에도 동일한 성능을 발휘  
-태그 지정은 구조 및 유연성의 장점을 결합  
+# AEM Navigation 메뉴
+| 메뉴                       | 핵심                      |
+| ------------------------ | ----------------------- |
+| **Projects**             | 작업, 팀, 리소스를 프로젝트 단위로 관리 |
+| **Sites**                | 페이지 구조/콘텐츠 관리 (CMS 핵심)  |
+| **Experience Fragments** | 재사용 가능한 콘텐츠 조각          |
+| **Assets**               | 이미지·동영상 등 디지털 자산 중앙 관리  |
+| **Forms**                | 온라인 폼, PDF 양식           |
+| **Screens**              | 디지털 사이니지 콘텐츠            |
+| **Personalization**      | 맞춤형 콘텐츠, A/B 테스트        |
+| **Commerce**             | 전자상거래 기능 통합             |
+| **Communities**          | 포럼, 리뷰, 커뮤니티 기능         |
+
+# AEM TOOLS 메뉴
+| 영역                 | 핵심 목적            |
+| ------------------ | ---------------- |
+| **General**        | 기본 구조/메타/구성 관리   |
+| **Workflow**       | 프로세스 자동화         |
+| **Operations**     | 시스템 관리·점검        |
+| **Sites**          | 다국어/멀티사이트 관리     |
+| **Assets**         | DAM + 메타데이터      |
+| **Resources**      | 문서/개발 리소스        |
+| **Deployment**     | 배포/복제/패키지 관리     |
+| **Security**       | 사용자·권한·보안        |
+| **Cloud Services** | Adobe/외부 클라우드 연동 |
+| **Communities**    | UGC, 커뮤니티 기능     |
+| **Commerce**       | 커머스 통합 기능        |
+### General
+| 메뉴                            | 설명                                             |
+| ----------------------------- | ---------------------------------------------- |
+| **CRXDE Lite**                | AEM 내부 리포지토리(JCR) 직접 탐색/편집하는 웹 IDE             |
+| **Search Forms**              | 커스텀 검색 폼 정의 — 에셋/페이지/사용자 정의 검색                 |
+| **Tagging**                   | 태그 정의·분류·관리 — 메타데이터 관리                         |
+| **Templates**                 | (Static Templates) 전통 템플릿 관리                   |
+| **Components**                | 재사용 가능한 컴포넌트 설정 — 에디터에 노출할 컴포넌트 관리             |
+| **Configuration Browser**     | OSGi 구성(Config) 관리 UI                          |
+| **Translation Configuration** | 번역 공급자(Adobe/외부) 연계 설정                         |
+| **GraphQL Query Editor**      | GraphQL API 테스트·작성 도구 — Content Fragment 쿼리 확인 |
+### Workflow
+| 메뉴            | 설명                         |
+| ------------- | -------------------------- |
+| **Models**    | 워크플로우 프로세스 설계/편집           |
+| **Instances** | 실행 중/완료된 워크플로우 인스턴스 모니터링   |
+| **Launchers** | 특정 이벤트 발생 시 워크플로우 자동 실행 규칙 |
+| **Archive**   | 완료된 워크플로우 기록 보관            |
+| **Failures**  | 실패한 워크플로우 목록·재시도·오류 추적     |
+### Operations
+| 메뉴                  | 설명                                  |
+| ------------------- | ----------------------------------- |
+| **System Overview** | 서버/인스턴스 상태 개요 — 버전, 디스크, JVM, 번들 상태 |
+| **Web Console**     | OSGi Felix 콘솔 바로가기 — 번들·구성 상세 관리    |
+| **Testing**         | AEM 테스트 프레임워크 연계                    |
+| **Configuration**   | 런타임 구성 설정 (OSGi Config 포함)          |
+| **Backup**          | 리포지토리 백업 작업 관리                      |
+| **Health Reports**  | 시스템 상태 리포트 — 성능·구성 점검               |
+| **Diagnosis**       | 문제 진단 도구 — 로그·스레드 덤프 등              |
+| **Maintenance**     | 유지보수 작업 스케줄링 — 예: 데이터 정리            |
+| **Monitoring**      | 자원 사용량, 트래픽, 큐 상태 모니터링              |
+| **Jobs**            | 비동기 작업(Job) 상태 모니터링/관리              |
+### Sites
+| 메뉴                        | 설명                                         |
+| ------------------------- | ------------------------------------------ |
+| **Blueprints**            | Multi Site Manager(다국어/멀티사이트) 마스터 블루프린트 관리 |
+| **Launches**              | 컨텐츠 사전 배포/출시 관리 (Launch 복제본)               |
+| **ContextHub**            | 사용자 컨텍스트 데이터 관리 (퍼스널라이제이션 세그먼트)            |
+| **External Link Checker** | 외부 링크 유효성 검사 도구                            |
+### Assets
+| 메뉴                                 | 설명                          |
+| ---------------------------------- | --------------------------- |
+| **GraphQL**                        | Assets GraphQL API 관리       |
+| **Content Fragment Models**        | Content Fragment 구조(스키마) 정의 |
+| **Connected Assets Configuration** | 원격 DAM 연계 설정                |
+| **Metadata Profiles**              | 에셋 메타데이터 자동 할당 프로필          |
+| **Folder Metadata Schemas**        | 폴더별 메타데이터 스키마               |
+| **Metadata Schemas**               | 전체 메타데이터 구조 관리              |
+| **Desktop Tools for AEM**          | AEM Desktop App 설정          |
+| **Insights Configuration**         | Adobe Analytics 연계 설정       |
+| **Reports**                        | 에셋 사용량, 상태 등 보고서            |
+### Resources
+| 메뉴                      | 설명               |
+| ----------------------- | ---------------- |
+| **Documentation**       | AEM 공식 문서 바로가기   |
+| **Developer Resources** | API 문서, 샘플 코드 링크 |
+### Deployment
+| 메뉴               | 설명                                          |
+| ---------------- | ------------------------------------------- |
+| **Replication**  | 작성 → 게시로 컨텐츠 배포 설정                          |
+| **Distribution** | 콘텐츠 배포 경로(Author ↔ Publish ↔ Dispatcher) 설정 |
+| **Packages**     | 패키지(.zip) 생성/배포/설치                          |
+| **Topology**     | 작성/게시/Dispatcher 토폴로지 상태                    |
+| **Offloading**   | 작업 오프로딩 설정 (예: 렌더링을 외부 노드로)                 |
+### Security
+| 메뉴                           | 설명                                   |
+| ---------------------------- | ------------------------------------ |
+| **Adobe IMS Configurations** | Adobe Identity Management Service 연계 |
+| **Users**                    | 사용자 계정 관리                            |
+| **Groups**                   | 사용자 그룹 관리                            |
+| **Permissions**              | 권한(ACL) 설정                           |
+| **OAuth Clients**            | OAuth 클라이언트 앱 등록                     |
+| **SSL Configuration**        | SSL 인증서 구성                           |
+| **Trust Store**              | 신뢰할 수 있는 인증서 저장소                     |
+
+### Cloud Services
+| 메뉴                                       | 설명                        |
+| ---------------------------------------- | ------------------------- |
+| **Legacy Cloud Services**                | 기존 Adobe 클라우드 서비스 연동      |
+| **Translation Cloud Services**           | 번역 클라우드 서비스 설정            |
+| **YouTube Publishing Configuration**     | 유튜브 게시 설정                 |
+| **Scene7 Configuration**                 | Dynamic Media 연계          |
+| **Adobe Stock**                          | Adobe Stock 연결            |
+| **Adobe Launch Configurations**          | 태그 관리(AEM ↔ Adobe Launch) |
+| **reCAPTCHA**                            | 구글 reCAPTCHA 설정           |
+| **Adobe Fonts**                          | Adobe Fonts 연계            |
+| **Facebook Social Login Configuration**  | 페이스북 소셜 로그인 설정            |
+| **Twitter Social Login Configuration**   | 트위터 소셜 로그인 설정             |
+| **Pinterest Social Login Configuration** | 핀터레스트 소셜 로그인 설정           |
+| **AEM Brand Portal**                     | Brand Portal 연동           |
+
+### Communities
+| 메뉴                        | 설명                             |
+| ------------------------- | ------------------------------ |
+| **Storage Configuration** | UGC 저장소 설정 (예: MongoDB, TarMK) |
+| **Component Guide**       | 커뮤니티 컴포넌트 예제                   |
+| **Community Functions**   | 포럼/그룹 등 커뮤니티 기능                |
+| **Group Templates**       | 사용자 그룹 템플릿                     |
+| **Site Templates**        | 커뮤니티 사이트 템플릿                   |
+| **Community Badges**      | 사용자 뱃지(포인트 시스템)                |
+
+### Commerce
+| 메뉴                   | 설명       |
+| -------------------- | -------- |
+| **Payment Methods**  | 결제 수단 설정 |
+| **Shipping Methods** | 배송 옵션 설정 |
