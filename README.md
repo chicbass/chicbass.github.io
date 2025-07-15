@@ -13,21 +13,6 @@
 - publish 2-3대 (이중화)
 - dispacher 2대
 
-## 자주쓰는 메뉴
-- Package Manager
-- CRXDE
-- General
-- Assets
-- Sites
-- Deployment
-- Project 거의 안씀.
-
-# Author
-- open properties
-- publish page > author 서버에서 publish 서버로 보내줌
-- edit template
-- view in published
-
 # AEM
 - AEM 6의 AEM 플랫폼은 Apache Jackrabbit Oak을 기반
 - Apache Jackrabbit : Java로 만들어진 오픈소스 콘텐츠 저장소(Content Repository)
@@ -38,7 +23,6 @@
 - JCR : Java Content Repository
 # Platform
 - Oracle Java™ SE 11,8 JDK - 64비트
-- Oracle Java™ 17 및 21은 AEM 6.5 LTS에서 지원
 - Maven 필요
 # Repository
 - MongoDB Enterprise 4.2~7.0 지원
