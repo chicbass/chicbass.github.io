@@ -84,7 +84,7 @@
 
 1. Overlay core AEM component under /libs/<website-name\>/components/<MyCcmponent\>
 2. Refactor core component Itself under core/wcm/<component-name\>
-3. **Overlay core AEM component under/apps/< website-name /component3/<MyComponent\>**
+3. **Overlay core AEM component under/apps/<website-name\>/component3/<MyComponent\>**
 
 > 13  
 > Which AFM feature should an organization use when they want to control all mobile and web properties from a single platform while maintaining consistency and brand identity across campaigns and messaging?
