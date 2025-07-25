@@ -1,17 +1,20 @@
 >1  
-> What la the maximum number of locations allowed in the integration on Adobe Target?
+> What is the maximum number of locations allowed in the integration on Adobe Target?
+
 1. 50
 2. **1,000**
 3. 100
 
 >2  
 > Which two teams need to collaborate to create a new custom component while developing an AFM SPA (Single Page Application) project? (Choose Iwo.)
+
 1. Content Authors
 2. **Back-End**
 3. Front-End
 4. **DevOps**
 
-> 3  
+> 3
+
 > A customer needs to create, manage, deliver, and optimize personalized experiences at scale for thousands of images and videos Which AEM Module should the customer use?
 1. AFM Sites
 2. **AEM Assets**
@@ -79,9 +82,9 @@
 > 12  
 > Which best practice can be used to customize core AFM components?
 
-1. Overlay core AEM component under /libs/<website-name>/components/<MyCcmponent>
-2. Refactor core component Itself under core/wcm/<component-name>
-3. **Overlay core AEM component under/apps/< website-name /component3/<MyComponent>**
+1. Overlay core AEM component under /libs/<website-name\>/components/<MyCcmponent\>
+2. Refactor core component Itself under core/wcm/<component-name\>
+3. **Overlay core AEM component under/apps/< website-name /component3/<MyComponent\>**
 
 > 13  
 > Which AFM feature should an organization use when they want to control all mobile and web properties from a single platform while maintaining consistency and brand identity across campaigns and messaging?
@@ -201,7 +204,7 @@
 3. AFM Forms
 
 > 29  
-> What la the main restriction for newly created AFM Tags?
+> What is the main restriction for newly created AFM Tags?
 
 1. The tag cannot have the same name as its direct parent namespace
 2. Same tags cannot be shared across different namespaces
@@ -246,6 +249,7 @@
 >35  
 >A client needs to make sure that the changes on a page will look correct when published
 >Which two statements accurately describe the use of Preview Mode for this client? (Choose two.)
+
 1. **Page will refresh when Preview Mode is turned on**
 2. Preview Mode will show parsys borders so the page structure can be easily seen
 3. **Preview Mode will allow the use of links to navigate**
@@ -254,54 +258,63 @@
 >36  
 >When publishing, an editor typically reviews the content before a site administrator activates the page A customer wants to automate this process and notify each participant when it is time to perform their required work.
 >Which AEM Module can be used to meet this requirement?
+
 1. AEM Communities
 2. ATM Forms
 3. **AEM Workflow**
 
 >37  
 >Which feature can he lined by content authors to create dynamic behavior in adaptive forms?
+
 1.  **Rules editor**
 2.  Adaptive form fragment
 3.  Theme editor
 
 >38  
 >Which feature is available in Experience Fragments hut not in Content Fragments?
+
 1. Annotations
 2. **Translation/localization**
 3. Building blocks
 
 >39  
 >A business practitioner is in the planning phase of a project. Which milestone should be completed during this phase?
+
 1. Content Architecture
 2. Permissions
 3. **Risk Assessment**
 
 >40   
 >Which administrative feature limits access to a specific page on a published website?
+
 1. AEM Groups
 2. Administrators Group
 3. **Closed User Group**
 
 >41  
 >A business practitioner would like to check how much work has already been completed for a specific phase of a project. Which metric of the Project Heartbeat Dashboard will provide this information?
+
 1. **Phase Completeness**
 2. Phase Health
 3. Phase Milestone
 
 >42  
 >A customer needs robust features and flexible tools to create and deploy personalized experiences for the whole audience on any screen. Which AEM Module is built for this purpose?
+
 1. AEM Mobile
 2. **AEM Sites**
 3. AFM Communities
 
 >43  
 >Which option provides an out-of-the-box cross-site scripting (XRS) protection so clients can mitigate potential security issues in front-end code?
+
 1. **HTML Template Language (HTL)**
 2. Asynchronous JavaScript and XML (AJAX)
 3. JavaServer Pages (JSP)
 
 >44  
 >Which administrative feature limits access to a specific page on a published website?
+
 1. AEM Groups
 2. Administrators Group
 3. **Closed User Group**
