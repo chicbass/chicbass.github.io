@@ -496,7 +496,7 @@ Which caching method can be used to update the cached content automatically?
 >65
 > A customer needs to create, manage, deliver, and optimize personalized experiences at scale for thousands of images and videos Which AEM Module should the customer use?
 
-AEM Forms
-**AEM Assets** 
-AFM Sites
+1. AEM Forms
+2. **AEM Assets** 
+3. AFM Sites
 
