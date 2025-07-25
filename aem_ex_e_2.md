@@ -319,3 +319,80 @@
 2. Administrators Group
 3. **Closed User Group**
 
+>45  
+>A Customer would like to manage blogs user groups and posts. Which module is relevant for him?
+
+1. **AEM communities**
+2. AEM sites
+3. AEM assets
+
+>46  
+>An organization wants to develop the content for future releases. Which feature can be used for this requirement?
+
+1. **Launches**
+2. Workflows
+3. AEM projects
+
+>47  
+>A client wants to publish several pages at once and without delay. What are two ways to publish these pages via TouchUI console? (Choose two)
+
+1. With the pages selected, access Manage Publication, and perform Publish action with Scheduling set to 'Now'
+2. **Select all pages, access Manage Publication, and perform Quick Publish action**
+3. With the pages selected, access Page Properties, and perform Publish action
+4. **Select the pages, and perform Quick Publish action**
+
+>48  
+>A customer would like an easy-to-use solution to create, manage and publish complex digital forms. Which AEM module can help?
+
+1. **AEM forms**
+2. AEM form optimizer
+3. AEM user management
+
+>49  
+>Where do you obtain the most updated quickstart JAR?
+
+1. Package Share
+2. **Adobe Software Distribution**
+3. Package Manager
+
+
+>50  
+>Who defines requirements, sets KPI metrics, and is the main driver of the AFM Screens project?
+
+1. **Business Strategist**
+2. Project Manager
+3. AEM Implementer
+
+
+>51  
+>What is the role of an AFM Implementer in a typical AFM Screens project?
+
+1. System Administrator
+2. Experience Author
+3. **Developer**
+
+
+>52  
+>A business practitioner would like to highlight areas that may be at risk. Which metric of the Project Heartbeat worksheet will provide this information?
+
+1. Phase Quality
+2. **Phase Health**
+3. Phase Completeness
+
+
+>53  
+>Which approach should be used to help a client reuse part of a page while maintaining its design and layout?
+
+1. Responsive layout
+2. Paragraph system
+3. **Experience Fragment**
+
+
+>54  
+>Which options are present in the CI/CD pipeline configurations for initiating a pipeline? (Select two)
+
+1. Daily
+2. Weekly
+3. **On Git changes**
+4. **Manual**
+
