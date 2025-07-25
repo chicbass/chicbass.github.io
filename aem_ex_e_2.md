@@ -71,7 +71,7 @@
 1. Adobe will introduce physical security measures
 2. Adobe will develop custom components for Production
 3. **Adobe will review code changes on the production branch**
-
+ 
 > 11  
 > What is a responsibility of an architect persona on a typical AFM project?
 
