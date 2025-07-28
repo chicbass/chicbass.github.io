@@ -216,7 +216,7 @@
 3. AFM Sites
 
 >30
->Which feature is available in Experience Fragments hut not in Content Fragments?
+>Which feature is available in Experience Fragments but not in Content Fragments?
 
 1. Annotations
 2. **Translation/localization**
