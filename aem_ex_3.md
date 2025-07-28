@@ -195,14 +195,14 @@
 3. ExactTarget
 
 >27
->What la the default maximum file site of an asset that a content author ran upload?
+>What is the default maximum file site of an asset that a content author ran upload?
 
 1. **2 GB**
 2. 4 GB
 3. 1 GB
 
 >28
->Which feature can he lined by content authors to create dynamic behavior in adaptive forms?
+>Which feature can be used by content authors to create dynamic behavior in adaptive forms?
 
 1. **Rules editor**
 2. Adaptive form fragment
