@@ -1,4 +1,4 @@
->1. 
+>1.
 >A Client wants a website to be available in different countries. Which AEM capabilities should the Business Practitioner recommend to them?
 
 1. Translation connector and Multi-Language Translation
@@ -406,29 +406,29 @@ Which worksheet of the Adobe best practices checklist shows this information?
 3. Text Component
 
 >53
-> What la the role of an AFM Implementerin a typical AFM Screens project?
+> What is the role of an AEM Implementerin a typical AEM Screens project?
 
 1. System Administrator
 2. Experience Author
-3. **Developer** 
+3. **Developer**
 
 >54
-> When a user searches for a keyword on a webpage, the search keyword Is appended to the URl as a URI parameter This page is not being cached in the dispatcher.
+> When a user searches for a keyword on a webpage, the search keyword Is appended to the URl as a URl parameter This page is not being cached in the dispatcher.
 What could be the reason that this page is failing to be cached in the dispatcher?
 
-1. **Thedispatcher Is not configured correctly** 
+1. **The dispatcher Is not configured correctly**
 2. A static page cannot be cached
-3. The page URL Is not correct
+3. The page URL is not correct
 
 >55
-> What la a Document of Record (DoR) of an adaptive form?
+> What is a Document of Record (DoR) of an adaptive form?
 
 1. **A PDF version of an adaptive form**
 2. A JSON schema for an adaptive form
 3. An XML pre-fill data of an adaptive form
 
 >56
-> Which method does Adobe recommend for managing access control lists? V
+> Which method does Adobe recommend for managing access control lists?
 
 1. Assign permission directly to users
 2. **Assign permission to groups**
@@ -438,16 +438,16 @@ What could be the reason that this page is failing to be cached in the dispatche
 > A client needs to make sure that the changes on a page will look correct when published
 Which two statements accurately describe the use of Preview Mode for this client? (Choose two.)
 
-1. **Page will refresh when Preview Mode is turned on** 
+1. **Page will refresh when Preview Mode is turned on**
 2. Preview Mode will show parsys borders so the page structure can be easily seen
-3. **Preview Mode will allow the use of links to navigate** 
+3. **Preview Mode will allow the use of links to navigate**
 4. Preview Mode will not refresh the page content
 
 >58
-> Which AFM feature should an organization use when they want to control all mobile and webproperties from a single platform while maintaining consistency and brand identityacross campaigns and messaging?
+> Which AEM feature should an organization use when they want to control all mobile and webproperties from a single platform while maintaining consistency and brand identityacross campaigns and messaging?
 
 1. AEM Projects
-2. **Multi-site Management** 
+2. **Multi-site Management**
 3. Version Control
 
 >59
@@ -455,17 +455,17 @@ Which two statements accurately describe the use of Preview Mode for this client
 
 1. AEM Mobile
 2. **AEM Sites**
-3. AFM Communities
+3. AEM Communities
 
 >60
-> Which AFM Sites feature allows a content author to efficiently develop content for a futurerelease?
+> Which AEM Sites feature allows a content author to efficiently develop content for a futurerelease?
 
 1. Page Versions
 2. **Launches**
 3. Screens
 
 >61
-> A client has multiple websites hosted in AFM, and AFM authors are responsible for making changes to the website's content. AFM dispatcher caches these pages. When changes are made to the website, the client wants the cached content to be updated.
+> A client has multiple websites hosted in AEM, and AEM authors are responsible for making changes to the website's content. AEM dispatcher caches these pages. When changes are made to the website, the client wants the cached content to be updated.
 Which caching method can be used to update the cached content automatically?
 
 1. Content Updates
@@ -473,30 +473,23 @@ Which caching method can be used to update the cached content automatically?
 3. Delete the cache manually
 
 >62
-> Which feature is available in Experience Fragments hut not in Content Fragments?
+> Which feature is available in Experience Fragments but not in Content Fragments?
 
 1. Annotations
-2. **Translation/localization** 
+2. **Translation/localization**
 3. Building blocks
 
 >63
 > Which building block is an important part of advanced text authoring?
 
-1. **Rich text Edition** 
+1. **Rich text Edition**
 2. Multi-line Editor
 3. Text Component
 
 >64
-> What la the role of an AFM Implementerin a typical AFM Screens project?
-
-1. System Administrator
-2. Experience Author
-3. **Developer** 
-
->65
 > A customer needs to create, manage, deliver, and optimize personalized experiences at scale for thousands of images and videos Which AEM Module should the customer use?
 
 1. AEM Forms
-2. **AEM Assets** 
-3. AFM Sites
+2. **AEM Assets**
+3. AEM Sites
 
