@@ -102,7 +102,7 @@
 3. Quality of the delivery; ensuring that it meets the criteria
 
 >15
->Which approach should he lifted to assist a client who wants 1o re-use part of a page while maintaining, its design and layout'
+>Which approach should be lifted to assist a client who wants to re-use part of a page while maintaining its design and layout?
 
 1. Responsive layout
 2. Paragraph system
