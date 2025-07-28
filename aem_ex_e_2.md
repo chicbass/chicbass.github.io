@@ -6,7 +6,7 @@
 3. 100
 
 >2  
-> Which two teams need to collaborate to create a new custom component while developing an AFM SPA (Single Page Application) project? (Choose Iwo.)
+> Which two teams need to collaborate to create a new custom component while developing an AEM SPA (Single Page Application) project? (Choose Two.)
 
 1. Content Authors
 2. **Back-End**
@@ -16,12 +16,12 @@
 > 3
 
 > A customer needs to create, manage, deliver, and optimize personalized experiences at scale for thousands of images and videos Which AEM Module should the customer use?
-1. AFM Sites
+1. AEM Sites
 2. **AEM Assets**
 3. AEM Forms
 
 > 4  
-> When a user searches for a keyword on a webpage, the search keyword Is appended to the URl as a URI parameter This page is not being cached in the dispatcher.
+> When a user searches for a keyword on a webpage, the search keyword Is appended to the URl as a URl parameter This page is not being cached in the dispatcher.
 > What could be the reason that this page is failing to be cached in the dispatcher?
 
 1. The page URL Is not correct
@@ -52,7 +52,7 @@
 3. XML
 
 > 8  
-> Which AFM feature can an organization use when they want to develop content for future releases?
+> Which AEM feature can an organization use when they want to develop content for future releases?
 
 1. Workflow
 2. **Launches**
@@ -71,23 +71,23 @@
 1. Adobe will introduce physical security measures
 2. Adobe will develop custom components for Production
 3. **Adobe will review code changes on the production branch**
- 
+
 > 11  
-> What is a responsibility of an architect persona on a typical AFM project?
+> What is a responsibility of an architect persona on a typical AEM project?
 
 1. Quality of the delivery; ensuring that it meets the criteria
 2. Defining the budget and resourcing the project based on that budget
 3. **The high-level design of the solution and system**
 
 > 12  
-> Which best practice can be used to customize core AFM components?
+> Which best practice can be used to customize core AEM components?
 
 1. Overlay core AEM component under /libs/<website-name\>/components/<MyComponent\>
 2. Refactor core component Itself under core/wcm/<component-name\>
 3. **Overlay core AEM component under/apps/<website-name\>/components/<MyComponent\>**
 
 > 13  
-> Which AFM feature should an organization use when they want to control all mobile and web properties from a single platform while maintaining consistency and brand identity across campaigns and messaging?
+> Which AEM feature should an organization use when they want to control all mobile and web properties from a single platform while maintaining consistency and brand identity across campaigns and messaging?
 
 1. AEM Projects
 2. **Multi-site Management**
@@ -96,7 +96,7 @@
 > 14  
 > Which scenario is valid for introducing additional training for content authors?
 
-1. Installing new version of aim
+1. Installing new version of aem
 2. **Installing new page templates**
 3. Installing additional DAM Assets
 
@@ -108,7 +108,7 @@
 3. **Risk Assessment**
 
 > 16  
-> A client has multiple websites hosted in AFM, and AFM authors are responsible for making changes to the website's content. AFM dispatcher caches these pages. When changes are made to the website, the client wants the cached content to be updated.
+> A client has multiple websites hosted in AEM, and AEM authors are responsible for making changes to the website's content. AEM dispatcher caches these pages. When changes are made to the website, the client wants the cached content to be updated.
 > Which caching method can be used to update the cached content automatically?
 
 1. Content Updates
@@ -116,7 +116,7 @@
 3. Delete the cache manually
 
 > 17  
-> A client who use'; AFM as a Cloud Service would like to increase content relevance through targeting and measuring across all channels. Which two features should be used to achieve this goal? (Choose two.)
+> A client who uses AEM as a Cloud Service would like to increase content relevance through targeting and measurement across all channels. Which two features should be used to achieve this goal? (Choose two.)
 
 1. **Create a Target Configuration in AEM as a Cloud Service**
 2. Enable and configure Adobe Analytics OSGi config in web console
@@ -124,14 +124,14 @@
 4. **Add and configure Adobe Target as an extension in Adobe Launch**
 
 > 18  
-> Through which Adobe service does the Automated Forms Conversion service convert PDI- forms to adaptive forms?
+> Through which Adobe service does the Automated Forms Conversion service convert PDF forms to adaptive forms?
 
 1. Adobe Forms
 2. **Adobe Sensei**
 3. Adobe Cloud
 
 > 19  
-> What is the AFM as a Cloud Service feature Adobe Pipeline?
+> What is the AEM as a Cloud Service feature Adobe Pipeline?
 
 1. The mechanism for publishing content from author to publish
 2. The cloud-native way of leveraging the AEM applications
@@ -149,13 +149,13 @@
 > A client wants to publish several pages at once and without delay.
 > What are two ways to publish these pages via TouchUI console? (Choose two.)
 
-1. With the pages selected, access the Manage Publication, and perform the Publish action with Shedding set to ''Now'
-2. Select all pages, access the Manage Publication, and perform the Quick Publish action V
+1. With the pages selected, access the Manage Publication, and perform the Publish action with Scheduling set to 'Now'
+2. **Select all pages, access the Manage Publication, and perform the Quick Publish action**
 3. With the pages selected, access Page Properties, and perform Publish action
 4. **Select the pages, and perform the Quick Publish action**
 
 > 22  
-> Which AFM feature can he used to create page-Independent text and associated media, which can then he re-used on any page or delivered to an app when required?
+> Which AEM feature can be used to create page-Independent text and associated media, which can then be re-used on any page or delivered to an app when required?
 
 1. Experience Fragment
 2. Single Page Editing
@@ -169,7 +169,7 @@
 3. OSGi Configuration Developer
 
 > 24  
-> Which feature is available in Experience Fragments hut not in Content Fragments?
+> Which feature is available in Experience Fragments but not in Content Fragments?
 
 1. Annotations
 2. **Translation/localization**
@@ -183,14 +183,14 @@
 3. **The code will have to satisfy a certain level of unit test coverage**
 
 > 26  
-> Which feature can he lined by content authors to create dynamic behavior in adaptive forms?
+> Which feature can be useed by content authors to create dynamic behavior in adaptive forms?
 
 1. **Rules editor**
 2. Adaptive form fragment
 3. Theme editor
 
 > 27  
-> Which option provides an out-of-the-box cross-site scripting (XRS) protection so clients can mitigate potential security issues in front-end code?
+> Which option provides an out-of-the-box cross-site scripting (XSS) protection so clients can mitigate potential security issues in front-end code?
 
 1. **HTML Template Language (HTL)**
 2. Asynchronous JavaScript and XML (AJAX)
@@ -204,14 +204,14 @@
 3. AFM Forms
 
 > 29  
-> What is the main restriction for newly created AFM Tags?
+> What is the main restriction for newly created AEM Tags?
 
 1. The tag cannot have the same name as its direct parent namespace
 2. Same tags cannot be shared across different namespaces
 3. **Tags must be unique within a specific namespace**
 
 > 30  
-> Which individual defines requirements, sets up KPI metrics, and is the main driver of the AFM Screens project?
+> Which individual defines requirements, sets up KPI metrics, and is the main driver of the AEM Screens project?
 
 1. **Business Strategist**
 2. Project Manager
@@ -255,85 +255,36 @@
 3. **Preview Mode will allow the use of links to navigate**
 4. Preview Mode will not refresh the page content
 
+
 >36  
->When publishing, an editor typically reviews the content before a site administrator activates the page A customer wants to automate this process and notify each participant when it is time to perform their required work.
->Which AEM Module can be used to meet this requirement?
-
-1. AEM Communities
-2. ATM Forms
-3. **AEM Workflow**
-
->37  
->Which feature can he lined by content authors to create dynamic behavior in adaptive forms?
-
-1.  **Rules editor**
-2.  Adaptive form fragment
-3.  Theme editor
-
->38  
->Which feature is available in Experience Fragments hut not in Content Fragments?
-
-1. Annotations
-2. **Translation/localization**
-3. Building blocks
-
->39  
->A business practitioner is in the planning phase of a project. Which milestone should be completed during this phase?
-
-1. Content Architecture
-2. Permissions
-3. **Risk Assessment**
-
->40   
->Which administrative feature limits access to a specific page on a published website?
-
-1. AEM Groups
-2. Administrators Group
-3. **Closed User Group**
-
->41  
 >A business practitioner would like to check how much work has already been completed for a specific phase of a project. Which metric of the Project Heartbeat Dashboard will provide this information?
 
 1. **Phase Completeness**
 2. Phase Health
 3. Phase Milestone
 
->42  
+>37  
 >A customer needs robust features and flexible tools to create and deploy personalized experiences for the whole audience on any screen. Which AEM Module is built for this purpose?
 
 1. AEM Mobile
 2. **AEM Sites**
-3. AFM Communities
+3. AEM Communities
 
->43  
->Which option provides an out-of-the-box cross-site scripting (XRS) protection so clients can mitigate potential security issues in front-end code?
-
-1. **HTML Template Language (HTL)**
-2. Asynchronous JavaScript and XML (AJAX)
-3. JavaServer Pages (JSP)
-
->44  
->Which administrative feature limits access to a specific page on a published website?
-
-1. AEM Groups
-2. Administrators Group
-3. **Closed User Group**
-
->45  
+>38  
 >A Customer would like to manage blogs user groups and posts. Which module is relevant for him?
 
 1. **AEM communities**
 2. AEM sites
 3. AEM assets
 
->46  
+>39  
 >An organization wants to develop the content for future releases. Which feature can be used for this requirement?
 
 1. **Launches**
 2. Workflows
 3. AEM projects
 
->47  
+>40  
 >A client wants to publish several pages at once and without delay. What are two ways to publish these pages via TouchUI console? (Choose two)
 
 1. With the pages selected, access Manage Publication, and perform Publish action with Scheduling set to 'Now'
@@ -341,58 +292,41 @@
 3. With the pages selected, access Page Properties, and perform Publish action
 4. **Select the pages, and perform Quick Publish action**
 
->48  
+>41  
 >A customer would like an easy-to-use solution to create, manage and publish complex digital forms. Which AEM module can help?
 
 1. **AEM forms**
 2. AEM form optimizer
 3. AEM user management
 
->49  
+>42  
 >Where do you obtain the most updated quickstart JAR?
 
 1. Package Share
 2. **Adobe Software Distribution**
 3. Package Manager
 
-
->50  
->Who defines requirements, sets KPI metrics, and is the main driver of the AFM Screens project?
-
-1. **Business Strategist**
-2. Project Manager
-3. AEM Implementer
-
-
->51  
->What is the role of an AFM Implementer in a typical AFM Screens project?
+>43  
+>What is the role of an AEM Implementer in a typical AEM Screens project?
 
 1. System Administrator
 2. Experience Author
 3. **Developer**
 
-
->52  
+>44  
 >A business practitioner would like to highlight areas that may be at risk. Which metric of the Project Heartbeat worksheet will provide this information?
 
 1. Phase Quality
 2. **Phase Health**
 3. Phase Completeness
 
-
->53  
->Which approach should be used to help a client reuse part of a page while maintaining its design and layout?
-
-1. Responsive layout
-2. Paragraph system
-3. **Experience Fragment**
-
-
->54  
+>45  
 >Which options are present in the CI/CD pipeline configurations for initiating a pipeline? (Select two)
 
 1. Daily
 2. Weekly
 3. **On Git changes**
 4. **Manual**
+
+
 
