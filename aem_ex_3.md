@@ -1,25 +1,25 @@
 >1
 >You have imported an image file into AEM. Which out-of-the-box workflow will run automatically?
 
-1. **DAM Update Asset**  
-2. Asset Activation  
-3. Metadata Writeback  
+1. **DAM Update Asset**
+2. Asset Activation
+3. Metadata Writeback
 4. Forward Activation
 
 >2
 >How can you translate a tag without customization?
 
 1. **Include localization when editing a tag**
-2. Translate the tag in i18n  
-3. Make a language copy of the tag  
+2. Translate the tag in i18n
+3. Make a language copy of the tag
 4. The tag is translated when you send a page for translation
 
 >3
 >When would you recommend Dynamic Media to a client? Choose two.
 
-1. To distribute assets to external users  
-2. **To provide a rich viewing experience like spin sets or interactive viewers**  
-3. To eliminate time-consuming and costly tasks of cropping  
+1. To distribute assets to external users
+2. **To provide a rich viewing experience like spin sets or interactive viewers**
+3. To eliminate time-consuming and costly tasks of cropping
 4. To edit the content of a video before delivery
 
 >4
@@ -30,7 +30,7 @@
 3. AFM Forms
 
 >5
->A client who use'; AFM as a Cloud Service would like to increase content relevance through targeting and measuring across all channels. Which two features should be used to achieve this goal? (Choose two.)
+>A client who uses AEM as a Cloud Service would like to increase content relevance through targeting and measurement across all channels. Which two features should be used to achieve this goal? (Choose two.)
 
 1. **Create a Target Configuration in AEM as a Cloud Service**
 2. Enable and configure Adobe Analytics OSGi config in web console
@@ -38,7 +38,7 @@
 4. **Add and configure Adobe Target as an extension in Adobe Launch**
 
 >6
->Which option provides an out-of-the-box cross-site scripting (XRS) protection so clients can mitigate potential security issues in front-end code?
+>Which option provides out-of-the-box cross-site scripting (XSS) protection so clients can mitigate potential security issues in front-end code?
 
 1. **HTML Template Language (HTL)**
 2. Asynchronous JavaScript and XML (AJAX)
@@ -73,7 +73,7 @@
 3. Use allow sparingly
 
 >11
->Which run mode will skip the installation of demo content during an AFM installation?
+>Which run mode will skip the installation of demo content during an AEM installation?
 
 1. **nosamplecontent**
 2. nodemocontent
@@ -97,7 +97,7 @@
 >14
 >What is a responsibility of an architect persona on a typical AFM project?
 
-1. efining the budget and resourcing the project based on that budget
+1. Defining the budget and resourcing the project based on that budget
 2. **The high-level design of the solution and system**
 3. Quality of the delivery; ensuring that it meets the criteria
 
@@ -109,7 +109,7 @@
 3. **Experience fragment**
 
 >16
->Which two teams need to collaborate to create a new custom component while developing an AFM SPA (Single Page Application) project?(Choose Iwo.)
+>Which two teams need to collaborate to create a new custom component while developing an AEM SPA (Single Page Application) project?(Choose Iwo.)
 
 1. **Front-End**
 2. **Back-End**
@@ -165,8 +165,8 @@
 3. 50
 
 >23
->A client has multiple websites hosted in AFM, and AFM authors are responsible for making changes to the website's content.
->AFM dispatcher caches these pages. When changes are made to the website, the client wants the cached content to be update4.
+>A client has multiple websites hosted in AEM, and AEM authors are responsible for making changes to the website's content.
+>AEM dispatcher caches these pages. When changes are made to the website, the client wants the cached content to be update.
 >Which caching method can be used to update the cached content automatically?
 
 1. Content Updates
@@ -188,14 +188,14 @@
 3. **Closed User Group**
 
 >26
->Which non-Adobe product can be integrated with AFM as out-of-the-box?
+>Which non-Adobe product can be integrated with AEM as out-of-the-box?
 
 1. MailChimp
 2. **SAP**
 3. ExactTarget
 
 >27
->What is the default maximum file site of an asset that a content author ran upload?
+>What is the default maximum file size of an asset that a content author can upload?
 
 1. **2 GB**
 2. 4 GB
@@ -213,7 +213,7 @@
 
 1. AEM Forms
 2. **AEM Assets**
-3. AFM Sites
+3. AEM Sites
 
 >30
 >Which feature is available in Experience Fragments but not in Content Fragments?
@@ -223,7 +223,7 @@
 3. Building blocks
 
 >31
->Which AFM feature can he used to create page-Independent text and associated media, which can then he re-used on any page or delivered to an app when required?
+>Which AEM feature can be used to create page-independent text and associated media, which can then be reused on any page or delivered to an app when required?
 
 1. Experience Fragment
 2. Single Page Editing
@@ -231,14 +231,14 @@
 
 
 >32
->What la the role of an AFM Implementer in a typical AFM Screens project?
+>What is the role of an AEM Implementer in a typical AEM Screens project?
 
 1. System Administrator
 2. Experience Author
 3. **Developer**
 
 >33
->For which use case is the AFM Desktop app the preferred solution?
+>For which use case is the AEM Desktop app the preferred solution?
 
 1. **Share DAM assets with users who have access to DAM**
 2. Share DAM assets with users who do not have access to DAM
@@ -254,7 +254,7 @@
 4. Preview Mode will not refresh the page content
 
 >35
->Which AFM feature allows an author to create a large set of pages that share the same structure but have different content?
+>Which AEM feature allows an author to create a large set of pages that share the same structure but have different content?
 
 1. Content Fragment
 2. Live Copy
@@ -278,7 +278,7 @@
 >A client wants to publish several pages at once and without delay.
 >What are two ways to publish these pages via TouchUI console? (Choose two.)
 
-1. With the pages selected, access the Manage Publication, and perform the Publish action with Shedding set to ''Now'
+1. With the pages selected, access the Manage Publication, and perform the Publish action with Scheduling set to 'Now'.
 2. **Select all pages, access the Manage Publication, and perform the Quick Publish action**
 3. With the pages selected, access Page Properties, and perform Publish action
 4. **Select the pages, and perform the Quick Publish action**
